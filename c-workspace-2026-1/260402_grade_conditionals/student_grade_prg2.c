@@ -1,7 +1,7 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #define TRUE 1 //
 #include <stdio.h>
-int main() {
+int main123() {
 	int iScore, iYear;
 	int iScoreFlag, iYearFlag;
 	int iPassFlag4, iPassFlag123;
