@@ -4,6 +4,7 @@
 int main() {
 	int iNo = 0;
 	int iCup = 1;
+	//int iSumP;
 	int iPrice1 = 1500;
 	int iPrice2 = 2000;
 	int iPrice3 = 2500;
@@ -24,7 +25,7 @@ int main() {
 		if (iNo == 0) {
 			break;
 		}
-
+		
 		switch (iNo) {
 		case 1:
 			printf("[%s]-[%d잔]-%d원\n", chMenu1, iCup, iPrice1);
