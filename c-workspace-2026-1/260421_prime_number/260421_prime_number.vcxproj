@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d8a4bf27-0441-4da8-9438-13acede15a5b}</ProjectGuid>
-    <RootNamespace>Practice</RootNamespace>
+    <ProjectGuid>{e92b12fa-c9fa-48c6-98fd-6e3cc8f6d6a6}</ProjectGuid>
+    <RootNamespace>Prj260421</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,17 +123,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ascii_range_checker.c">
+    <ClCompile Include="prime_number_prg.c">
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="gugudan_using_loop.c" />
-    <ClCompile Include="leap_year_prg_if_else.c" />
-    <ClCompile Include="std_grade_prg.c">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="test_prg.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
