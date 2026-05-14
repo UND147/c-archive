@@ -11,11 +11,11 @@ int main() { //소수 판별
 		printf("정수 입력: ");
 		scanf("%d", &iNo);
 
-		if (iNo > 0) {
+		if (iNo > 1) {
 			iCount = 0;
 			//0과1로나누는것은 의미없음 2로 시작 > 연산논리 iDiv = iNo % i > if iDiv == 0 이면 break 
 			//if 조건식에서 bool flag활용 > for문을 다 돌았는지 판별 
-			for (int i = 0; i < iNo; ++i) {
+			for (int i = 2; i < iNo; ++i) {
 				iDiv = i + 1;
 				iMod = iNo % iDiv; // 2 1 0 2 2 0 3 1 
 				if (iMod == 0) {
