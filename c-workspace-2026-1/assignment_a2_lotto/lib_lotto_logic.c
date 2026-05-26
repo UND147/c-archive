@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿// A2 225230001 정주호
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include "lib_lotto_logic.h"
@@ -20,12 +21,10 @@ void getLottoNo(int iLottoArr[]) {
 			//난수 생성
 			iRandNo = (rand() % MAX_LOTTO_NO) + 1;
 
-			//중복이면 다시
 			if (isDuplicateNo(iLottoArr, iIndex, iRandNo) == TRUE)
 			{
-				continue;
+				continue; // 중복이면 재추첨
 			}
-
 			iLottoArr[iIndex] = iRandNo;
 			break;
 		}
@@ -44,7 +43,6 @@ int isDuplicateNo(const int iLottoArr[], int iIndex, int iRandNo) {
 		}
 	}
 	return bIsDuplicate;
-
 }
 
 // 선택정렬 오름차순

@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿// A2 225230001 정주호
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include "lib_lotto_logic.h"
@@ -23,14 +24,8 @@ int main(void) {
 		sortArrAsc(iLottoArr);
 		// 로또 번호 출력
 		prnArr(iLottoArr, iLoop);
-		
+	
 	}
 
 	return 0;
 }
-
-/*
-	확장
-	> 사용자로부터 로또 번호 입력받기
-	> 각 회차마다 생성된 로또 번호와 비교, 몇 개 같은지 Count
-*/
