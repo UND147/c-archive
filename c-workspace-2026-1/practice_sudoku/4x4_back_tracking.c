@@ -11,7 +11,7 @@ bool IsSafe(int iSudoku[ROW_SIZE][COL_SIZE], int iRow, int iCol, int iNum);
 bool SolveSudoku(int iSudoku[ROW_SIZE][COL_SIZE]);
 
 
-int main() {
+int main2() {
     // --- [2. 변수 선언 및 초기화] ---
     // 0은 채워야 할 빈칸을 의미합니다.
     int iSudoku[ROW_SIZE][COL_SIZE] = {

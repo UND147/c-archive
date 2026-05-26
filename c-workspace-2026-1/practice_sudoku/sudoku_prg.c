@@ -9,13 +9,18 @@
 void prnSudoku(int iSudoku[][COL_SIZE]);
 void checkAndFillRow(int iSudoku[][COL_SIZE]);
 void checkAndFillCol(int iSudoku[][COL_SIZE]);
+// 2x2 grid check
 int main() {
+	//1 0 3 4
+	//0 4 1 0
+	//2 0 4 0
+	//0 3 0 1
 	int iSudoku[ROW_SIZE][COL_SIZE] = 
 		{
-		0, 3, 4, 1,
-		1, 0, 0, 2,
-		3, 2, 0, 4,
-		0, 1, 2, 3
+		1, 0, 3, 4,
+		0, 4, 1, 0,
+		2, 0, 4, 0,
+		0, 3, 0, 1
 		};
 
 	prnSudoku(iSudoku);
