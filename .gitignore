@@ -1,0 +1,12 @@
+# Compile outputs
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+*.ilk
+
+# VS Code directory (optional to ignore, but we keep settings)
+.vscode/ipch/
+.vscode/*.log
+.vscode/*.db
