@@ -6,11 +6,19 @@
 # Build output
 Debug/
 Release/
+x64/
+Win32/
 *.obj
 *.exe
 *.lib
 *.pdb
 *.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.log
+enc_temp_folder/
 
 # Editor
 .vscode/
